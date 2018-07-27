@@ -53,11 +53,6 @@ class ProxyManager:
             print(colored('[{}] :: Added to session'.format(self.formattedProxies[index]), "cyan",attrs=['bold']))
             return self.format(self.formattedProxies[index])
 
-i = 0
-
-while i < 100:
-    ProxyManager().get_next_proxy()
-    i = i + 1
 
 
 
