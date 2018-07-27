@@ -8,7 +8,7 @@ Proxy manager for python request sessions. Allows users to easily add proxies to
  - Install required module `pip install termcolor`
  - Import into code using `from proxymanager import ProxyManager`
  - Make call to method to get next proxy `proxy = ProxyManager().get_next_proxy()`
- - assign proxy to session (`session.proxies = proxy`) 
+ - assign proxy to session (`request.Session().proxies = proxy`) 
 
 |Params|Use | Values |
 |--|--|--|
@@ -27,4 +27,5 @@ Proxy manager for python request sessions. Allows users to easily add proxies to
 
 
  
+
 
