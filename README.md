@@ -1,6 +1,3 @@
-﻿
-<![endif]-->
-
 # **Proxy Manager V1.0**
 
 ![enter image description here](https://lh3.googleusercontent.com/_yjXu_pVZgAFpFeJbcvaya5PjwNvtJHniX8clmIlKtYhROVB_I0sGrJjBkUWQLQWaTI7aljdhVG0VQ)
