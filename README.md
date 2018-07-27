@@ -20,11 +20,8 @@ Proxy manager for python request sessions. Allows users to easily add proxies to
 - assign proxy to session (`request.Session().proxies = proxy`)
 
 |Params|Use | Values |
-
 |--|--|--|
-
 | Random Proxy |Set to `True` to randomly pick a proxy from the list| Boolean |
-
 | Index  |Pass in a line number to recieve a specific proxy from the list | Integer |
 
 ## Features
