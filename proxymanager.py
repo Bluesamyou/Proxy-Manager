@@ -2,10 +2,13 @@
 from random import randint
 import datetime
 from termcolor import colored
+import colorama
 
 
 class ProxyManager:
     def __init__(self):
+
+        colorama.init()
 
         self.formattedProxies  = []
         self.badProxyArr       = []
@@ -36,10 +39,17 @@ class ProxyManager:
         self.index = 0
 
     def format(self, proxy):
-        return {
-            'http': 'http://{}'.format(proxy),
-            'https': 'https://{}'.format(proxy)
-        }
+        if proxy ==None:
+            return {
+                'http': None,
+                'https': None
+            }
+
+        else:
+            return {
+                'http': 'http://{}'.format(proxy),
+                'https': 'https://{}'.format(proxy)
+            }
 
 
     def get_next_proxy(self,randomProxy=True,index=0):
@@ -56,5 +66,9 @@ class ProxyManager:
 
 
 
+i = 0
 
+while i < 100:
+    ProxyManager().get_next_proxy()
+    i = i + 1
 
