@@ -4,7 +4,7 @@ import colorama
 
 
 class ProxyManager:
-    def __init__(self, type):
+    def __init__(self, type="proxies.txt"):
 
         colorama.init()
 
